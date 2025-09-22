@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Events | Applied Materials and Solar Energy Lab</title>
+  <meta name="description" content="Events page for Applied Materials and Solar Energy Lab" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Basic styles -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+
+    /* Navigation bar */
+    nav {
+      background: #004080;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      position: relative;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: block;
+    }
+
+    nav ul li a:hover {
+      background: #0066cc;
+    }
+
+    /* Dropdown menu */
+    nav ul li ul {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #004080;
+      display: none;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      min-width: 180px;
+    }
+
+    nav ul li:hover ul {
+      display: block; /* Show dropdown when cursor pointed */
+    }
+
+    nav ul li ul li a {
+      padding: 10px;
+    }
+
+    /* Main content */
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #004080;
+    }
+
+    .event {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+
+    .event:last-child {
+      border-bottom: none;
+    }
+
+    .event h2 {
+      margin: 0 0 5px;
+      color: #333;
+    }
+
+    .event p {
+      margin: 5px 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="Team.html">Team</a>
+        <ul>
+          <li><a href="#">Team Overview</a></li>
+          <li><a href="#">Master Students</a></li>
+          <li><a href="#">PI</a></li>
+          <li><a href="#">PhD Students</a></li>
+          <li><a href="#">Postdoctoral Research</a></li>
+          <li><a href="#">Visiting Researchers</a></li>
+          <li><a href="#">Former Members</a></li>
+        </ul>
+      </li>
+      <li><a href="Event.html">Events</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <h1>Upcoming & Past Events</h1>
+
+    <div class="event">
+      <h2>Workshop on Applied Materials</h2>
+      <p><strong>Date:</strong> October 15, 2025</p>
+      <p><strong>Location:</strong> Bahir Dar University</p>
+      <p>Join us for hands-on sessions and expert talks on solar energy and nanomaterials.</p>
+    </div>
+
+    <div class="event">
+      <h2>International Conference on Renewable Energy</h2>
+      <p><strong>Date:</strong> August 5-7, 2025</p>
+      <p><strong>Location:</strong> Bahir Dar University, Ethiopia</p>
+      <p>Our lab members presented their research on Effect of ozone plasma on the electronic properties of PEDOT:PSS thin films.</p>
+    </div>
+
+    <div class="event">
+      <h2>Guest Lecture Series</h2>
+      <p><strong>Date:</strong> June 10, 2025</p>
+      <p><strong>Speaker:</strong> Dr. Amare, Bahir Dar University</p>
+      <p>Topic: "Frontiers in Organic-Inorganic Hybrid Materials for Energy Applications"</p>
+    </div>
+  </div>
+</body>
+</html>
